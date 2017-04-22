@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'UnifrakturCook', cursive;
+}
+.container{width: 1000px;
+    background: seagreen;
+    margin: 0 auto;
+}
+
+.menu{
+        height: 50px;
+	background: #2d6796;
+    overflow: hidden;
+}
+ul{margin: 0;
+    padding: 0;}
+li{
+	    list-style: none;
+    float: left;
+}
+a{color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    text-transform: uppercase;}
+a:hover{}
+
+.main-content{
+    width: 1000px;
+    height: 330px;
+}
+.left{width: 800px;
+    height: 330px;
+    background: red;
+    float: left;}
+.one{width: 70%;
+    height: 100px;
+    background: blue;
+    float: left;}
+.two{width: 30%;
+    height: 100px;
+    background: green;
+    float: left;
+}
+.three{width: 33.33%;
+    height: 130px;
+    background: olive;
+    float: left;}
+
+
+.right{width: 200px;
+    height: 330px;
+    background: yellow;
+    float: left;}
+.four{width: 100%;
+    height: 165px;
+    background: black;}
+
+.copyright{ width: 100%;
+    height: 30px;
+    text-align: center;
+    }
+img{
+    max-width: 100%;
+    width:100%;
+}
